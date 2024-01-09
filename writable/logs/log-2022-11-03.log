@@ -1,0 +1,550 @@
+CRITICAL - 2022-11-03 01:12:47 --> Undefined variable: data
+in APPPATH\Controllers\Release.php on line 32.
+ 1 APPPATH\Controllers\Release.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Release.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 01:13:04 --> Undefined variable: filter
+in APPPATH\Controllers\Release.php on line 28.
+ 1 APPPATH\Controllers\Release.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filter', 'APPPATH\\Controllers\\Release.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 01:15:47 --> Undefined offset: 1
+in APPPATH\Models\ReleaseModel.php on line 16.
+ 1 APPPATH\Models\ReleaseModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Models\\ReleaseModel.php', 16, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('02-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 01:37:08 --> Undefined variable: data_note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(29): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 01:37:37 --> Undefined variable: data_note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(29): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 01:46:38 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Release.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Release.php', 21, [])
+ 2 APPPATH\Controllers\Release.php(21): date('d-m-Y', '2022-11-10')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:08:16 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 81.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:08:47 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 13.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:09:20 --> Undefined variable: i
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 13.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:09:33 --> Undefined index: created_date
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: created_date', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:09:43 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:10:05 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 13.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:10:30 --> Undefined index: created_date
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: created_date', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 02:15:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' FROM tblfile_form_note_release WHERE date_release = '01-11-2022'' at line 1 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 02:15:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' FROM tblfile_form_note_release WHERE date_release = '01-11-2022'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_note_release*, FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_note_release*, FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_note_release*, FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 4 APPPATH\Models\ReleaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_note_release*, FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 02:15:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form_note_release WHERE date_release = '01-11-2022'' at line 2 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 02:15:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form_note_release WHERE date_release = '01-11-2022'' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_note_release. *,
+                     FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_note_release. *,
+                     FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_note_release. *,
+                     FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 4 APPPATH\Models\ReleaseModel.php(24): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_note_release. *,
+                     FROM tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 02:16:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE date_release = '01-11-2022'' at line 1 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 02:16:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE date_release = '01-11-2022'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_note_release WHERE date_release = \'01-11-2022\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 4 APPPATH\Models\ReleaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_note_release WHERE date_release = \'01-11-2022\'')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:17:18 --> Undefined variable: data
+in APPPATH\Models\ReleaseModel.php on line 26.
+ 1 APPPATH\Models\ReleaseModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ReleaseModel.php', 26, [...])
+ 2 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('01-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:27:36 --> Undefined index: created_date
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: created_date', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:27:45 --> Undefined index: created_date
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: created_date', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:28:04 --> Undefined index: machine_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 61.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: machine_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:28:40 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:29:17 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:29:44 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:30:12 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:30:14 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:30:25 --> Undefined index: machine_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 61.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: machine_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:31:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Release.php(26): CodeIgniter\Model->__call('release_note', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:31:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Release.php(24): CodeIgniter\Model->__call('release', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 02:32:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Release.php(24): CodeIgniter\Model->__call('release', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 02:42:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form
+                                    WHERE tblfile_form.time =' at line 15 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 02:42:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form
+                                    WHERE tblfile_form.time =' at line 15
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form.*,
+                                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1    
+                                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodeint,
+                                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS int_density,      
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgweight,     	 
+                                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl
+                                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS total_out,
+ 
+                                    FROM tblfile_form
+                                    WHERE tblfile_form.time = \'31-12-1969\' AND tblfile_form.view_form = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form.*,
+                                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1    
+                                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodeint,
+                                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS int_density,      
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgweight,     	 
+                                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl
+                                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS total_out,
+ 
+                                    FROM tblfile_form
+                                    WHERE tblfile_form.time = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form.*,
+                                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1    
+                                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodeint,
+                                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS int_density,      
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgweight,     	 
+                                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl
+                                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS total_out,
+ 
+                                    FROM tblfile_form
+                                    WHERE tblfile_form.time = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 4 APPPATH\Models\ReleaseModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form.*,
+                                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1    
+                                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodeint,
+                                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS int_density,      
+                                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                        WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgweight,     	 
+                                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl
+                                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS total_out,
+ 
+                                    FROM tblfile_form
+                                    WHERE tblfile_form.time = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 03:04:06 --> mysqli_sql_exception: Table 'etowa_esay_ppcinv.tblfile_form_form_release' doesn't exist in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM  ...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM  ...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 03:04:06 --> Table 'etowa_esay_ppcinv.tblfile_form_form_release' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM  tblfile_form_form_release WHERE  tblfile_form_form_release.date_release = \'31-12-1969\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM  tblfile_form_form_release WHERE  tblfile_form_form_release.date_release = \'31-12-1969\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  tblfile_form_form_release WHERE  tblfile_form_form_release.date_release = \'31-12-1969\'')
+ 4 APPPATH\Models\ReleaseModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  tblfile_form_form_release WHERE  tblfile_form_form_release.date_release = \'31-12-1969\'')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 03:09:41 --> mysqli_sql_exception: Unknown column 'tblfile_form.view_form' in 'where clause' in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM  ...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM  ...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 03:09:41 --> Unknown column 'tblfile_form.view_form' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM  tblfile_form_note_release WHERE tblfile_form_note_release.date_release = \'31-12-1969\' AND tblfile_form.view_form = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM  tblfile_form_note_release WHERE tblfile_form_note_release.date_release = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  tblfile_form_note_release WHERE tblfile_form_note_release.date_release = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 4 APPPATH\Models\ReleaseModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  tblfile_form_note_release WHERE tblfile_form_note_release.date_release = \'31-12-1969\' AND tblfile_form.view_form = 1')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 03:16:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form_maintenance_release
+                                    WHERE' at line 1 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-03 03:16:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tblfile_form_maintenance_release
+                                    WHERE' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_maintenance_release.*, FROM tblfile_form_maintenance_release
+                                    WHERE  tblfile_form_maintenance_release.date_release = \'31-12-1969\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_maintenance_release.*, FROM tblfile_form_maintenance_release
+                                    WHERE  tblfile_form_maintenance_release.date_release = \'31-12-1969\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_maintenance_release.*, FROM tblfile_form_maintenance_release
+                                    WHERE  tblfile_form_maintenance_release.date_release = \'31-12-1969\'')
+ 4 APPPATH\Models\ReleaseModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_maintenance_release.*, FROM tblfile_form_maintenance_release
+                                    WHERE  tblfile_form_maintenance_release.date_release = \'31-12-1969\'')
+ 5 APPPATH\Controllers\Release.php(24): App\Models\ReleaseModel->release('31-12-1969')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 03:22:34 --> Undefined variable: title
+in APPPATH\Views\layout\template.php on line 11.
+ 1 APPPATH\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\template.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 7 APPPATH\Controllers\Release.php(28): view('schedule_eps/planner/list_release', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

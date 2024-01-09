@@ -1,0 +1,106 @@
+CRITICAL - 2023-02-21 03:09:03 --> Undefined index: enable_login
+in APPPATH\Models\AuthModel.php on line 15.
+ 1 APPPATH\Models\AuthModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: enable_login', 'APPPATH\\Models\\AuthModel.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 03:22:49 --> Call to undefined method App\Models\AuthModel::login1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Model->__call('login1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 03:24:30 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Auth.php on line 51.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('auth/index')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('auth/index')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('auth/index')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 03:36:28 --> Undefined variable: cek
+in APPPATH\Controllers\Auth.php on line 37.
+ 1 APPPATH\Controllers\Auth.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cek', 'APPPATH\\Controllers\\Auth.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 19:56:05 --> Undefined variable: data_position
+in APPPATH\Views\master\list_master_position.php on line 29.
+ 1 APPPATH\Views\master\list_master_position.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_position', 'APPPATH\\Views\\master\\list_master_position.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position', [], true)
+ 5 APPPATH\Controllers\Master.php(100): view('master/list_master_position', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 19:56:18 --> Undefined variable: sm
+in APPPATH\Views\master\list_master_position.php on line 35.
+ 1 APPPATH\Views\master\list_master_position.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sm', 'APPPATH\\Views\\master\\list_master_position.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position', [], true)
+ 5 APPPATH\Controllers\Master.php(100): view('master/list_master_position', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 19:57:50 --> Undefined variable: menu
+in APPPATH\Views\master\list_master_position.php on line 70.
+ 1 APPPATH\Views\master\list_master_position.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menu', 'APPPATH\\Views\\master\\list_master_position.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position', [], true)
+ 5 APPPATH\Controllers\Master.php(100): view('master/list_master_position', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 20:09:14 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_position_privilege.php on line 66.
+ 1 APPPATH\Views\master\list_master_position_privilege.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_position_privilege.php', 66, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position_privilege.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position_privilege', [], true)
+ 5 APPPATH\Controllers\Master.php(100): view('master/list_master_position_privilege', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 20:10:15 --> Undefined index: privilege_name
+in APPPATH\Views\master\list_master_position_privilege.php on line 70.
+ 1 APPPATH\Views\master\list_master_position_privilege.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privilege_name', 'APPPATH\\Views\\master\\list_master_position_privilege.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position_privilege.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position_privilege', [], true)
+ 5 APPPATH\Controllers\Master.php(101): view('master/list_master_position_privilege', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 20:11:10 --> Undefined variable: menu
+in APPPATH\Views\master\list_master_position_privilege.php on line 140.
+ 1 APPPATH\Views\master\list_master_position_privilege.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: menu', 'APPPATH\\Views\\master\\list_master_position_privilege.php', 140, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_position_privilege.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_position_privilege', [], true)
+ 5 APPPATH\Controllers\Master.php(101): view('master/list_master_position_privilege', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->viewposition()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

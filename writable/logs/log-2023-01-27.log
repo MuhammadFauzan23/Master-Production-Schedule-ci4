@@ -1,0 +1,277 @@
+CRITICAL - 2023-01-27 14:55:45 --> Undefined index: msg
+in APPPATH\Views\layout\template.php on line 220.
+ 1 APPPATH\Views\layout\template.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: msg', 'APPPATH\\Views\\layout\\template.php', 220, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 7 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-27 02:18:39 --> mysqli_sql_exception: Duplicate entry '21-4581' for key 'PRIMARY' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\MasterModel.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Master.php(64): App\Models\MasterModel->getaddUser(Array)
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Master->addUser()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-27 02:18:39 --> Duplicate entry '21-4581' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `position`, `level_app`, `dept`, `enable_login`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Jumakruf\', \'69436b8349c94ce2179862b048fd8f88e090b9a1\', \'Jumakruf aladin\', \'2\', \'11\', \'3\', \'\', \'aktif\', \'Jumakruf\', \'2023-01-27 02:18:39\', \'hakim\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `position`, `level_app`, `dept`, `enable_login`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Jumakruf\', \'69436b8349c94ce2179862b048fd8f88e090b9a1\', \'Jumakruf aladin\', \'2\', \'11\', \'3\', \'\', \'aktif\', \'Jumakruf\', \'2023-01-27 02:18:39\', \'hakim\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `position`, `level_app`, `dept`, `enable_login`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Jumakruf\', \'69436b8349c94ce2179862b048fd8f88e090b9a1\', \'Jumakruf aladin\', \'2\', \'11\', \'3\', \'\', \'aktif\', \'Jumakruf\', \'2023-01-27 02:18:39\', \'hakim\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `position`, `level_app`, `dept`, `enable_login`, `stamp_name`, `created_date`, `created_by`) VALUES (:nik:, :username:, :password:, :fullname:, :privilege:, :position:, :level_app:, :dept:, :enable_login:, :stamp_name:, :created_date:, :created_by:)', [...], false)
+ 5 APPPATH\Models\MasterModel.php(39): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Master.php(64): App\Models\MasterModel->getaddUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 03:38:43 --> Undefined variable: master_user
+in APPPATH\Views\master\list_master_user.php on line 31.
+ 1 APPPATH\Views\master\list_master_user.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: master_user', 'APPPATH\\Views\\master\\list_master_user.php', 31, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(128): view('master/list_master_user')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->add_menu_submenu()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 03:42:58 --> Undefined property: App\Controllers\Master::$MasterModel
+in APPPATH\Controllers\Master.php on line 125.
+ 1 APPPATH\Controllers\Master.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Master::$MasterModel', 'APPPATH\\Controllers\\Master.php', 125, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->add_menu_submenu()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-27 05:26:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'etowa' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '7110eda4d09e062...')
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'etowa' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '7110eda4d09e062...')
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-27 05:26:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'etowa'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblweb_users`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 05:41:04 --> Undefined variable: data_sub_menu
+in APPPATH\Views\master\list_master_menu.php on line 32.
+ 1 APPPATH\Views\master\list_master_menu.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_sub_menu', 'APPPATH\\Views\\master\\list_master_menu.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_menu', [], true)
+ 5 APPPATH\Controllers\Master.php(107): view('master/list_master_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->SubMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 05:41:49 --> Undefined variable: data_menu
+in APPPATH\Views\master\list_master_menu.php on line 261.
+ 1 APPPATH\Views\master\list_master_menu.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_menu', 'APPPATH\\Views\\master\\list_master_menu.php', 261, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_menu', [], true)
+ 5 APPPATH\Controllers\Master.php(107): view('master/list_master_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->SubMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:28:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Master.php(33): CodeIgniter\Model->__call('getRole', [])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:29:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Master.php(33): CodeIgniter\Model->__call('getRole', [])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:29:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Master.php(34): CodeIgniter\Model->__call('getPrivilage', [])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:30:52 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_role.php on line 98.
+ 1 APPPATH\Views\master\list_master_role.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_role.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:31:08 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_role.php on line 98.
+ 1 APPPATH\Views\master\list_master_role.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_role.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:40:09 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_role.php on line 98.
+ 1 APPPATH\Views\master\list_master_role.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_role.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:42:05 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_role.php on line 98.
+ 1 APPPATH\Views\master\list_master_role.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_role.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:42:49 --> Undefined index: iduserposition
+in APPPATH\Views\master\list_master_role.php on line 45.
+ 1 APPPATH\Views\master\list_master_role.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: iduserposition', 'APPPATH\\Views\\master\\list_master_role.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 09:43:26 --> Undefined variable: data_privilege
+in APPPATH\Views\master\list_master_role.php on line 98.
+ 1 APPPATH\Views\master\list_master_role.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_privilege', 'APPPATH\\Views\\master\\list_master_role.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_role.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 5 APPPATH\Controllers\Master.php(174): view('master/list_master_role', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 23:12:02 --> Undefined variable: db
+in APPPATH\Views\layout\sidebar.php on line 20.
+ 1 APPPATH\Views\layout\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Views\\layout\\sidebar.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 6 APPPATH\Controllers\Schedule.php(26): view('layout/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 23:12:08 --> Undefined variable: role
+in APPPATH\Views\layout\sidebar.php on line 24.
+ 1 APPPATH\Views\layout\sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: role', 'APPPATH\\Views\\layout\\sidebar.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 6 APPPATH\Controllers\Schedule.php(26): view('layout/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 23:12:39 --> Undefined variable: role
+in APPPATH\Views\layout\sidebar.php on line 24.
+ 1 APPPATH\Views\layout\sidebar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: role', 'APPPATH\\Views\\layout\\sidebar.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 6 APPPATH\Controllers\Schedule.php(26): view('layout/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-27 23:08:25 --> Undefined index: data
+in APPPATH\Controllers\Auth.php on line 41.
+ 1 APPPATH\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data', 'APPPATH\\Controllers\\Auth.php', 41, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

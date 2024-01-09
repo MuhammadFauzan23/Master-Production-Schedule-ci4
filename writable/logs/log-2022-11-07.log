@@ -1,0 +1,1159 @@
+CRITICAL - 2022-11-07 00:08:51 --> Undefined index: int_densit_releasey
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 176.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: int_densit_releasey', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(30): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:42:11 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 53.
+ 1 APPPATH\Models\ReleaseModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 53, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:42:47 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 53.
+ 1 APPPATH\Models\ReleaseModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 53, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:43:59 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 50.
+ 1 APPPATH\Models\ReleaseModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 50, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:45:11 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 52.
+ 1 APPPATH\Models\ReleaseModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 52, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:45:40 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 52.
+ 1 APPPATH\Models\ReleaseModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 52, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:46:22 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 53.
+ 1 APPPATH\Models\ReleaseModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 53, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:47:28 --> Undefined index: view_form_release
+in APPPATH\Models\ReleaseModel.php on line 52.
+ 1 APPPATH\Models\ReleaseModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form_release', 'APPPATH\\Models\\ReleaseModel.php', 52, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:53:02 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 49.
+ 1 APPPATH\Models\ReleaseModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 49, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-07 00:53:37 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'etowa' in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#8 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'etowa' in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-07 00:53:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'etowa'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblfile_form_release`', [], false)
+ 3 APPPATH\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:53:47 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 49.
+ 1 APPPATH\Models\ReleaseModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 49, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-07 00:54:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'etowa_esay_ppci...', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#8 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-07 00:54:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblfile_form_release`', [], false)
+ 3 APPPATH\Models\ReleaseModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:54:29 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 49.
+ 1 APPPATH\Models\ReleaseModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 49, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:55:07 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 49.
+ 1 APPPATH\Models\ReleaseModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 49, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:58:29 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 52.
+ 1 APPPATH\Models\ReleaseModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 52, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 00:58:31 --> Undefined index: view_form
+in APPPATH\Models\ReleaseModel.php on line 52.
+ 1 APPPATH\Models\ReleaseModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: view_form', 'APPPATH\\Models\\ReleaseModel.php', 52, [...])
+ 2 APPPATH\Controllers\Release.php(25): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 01:19:50 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 154.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 154, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:54:35 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 249.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 249, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(41): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:55:04 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 249.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 249, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(41): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:55:05 --> Undefined variable: data_release
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 249.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 249, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(41): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:56:50 --> Too few arguments to function App\Models\ReleaseModel::release(), 0 passed in C:\xampp\htdocs\schedule_1\app\Controllers\Schedule.php on line 42 and exactly 1 expected
+in APPPATH\Models\ReleaseModel.php on line 46.
+ 1 APPPATH\Controllers\Schedule.php(42): App\Models\ReleaseModel->release()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:58:53 --> Too few arguments to function App\Models\ReleaseModel::release(), 0 passed in C:\xampp\htdocs\schedule_1\app\Controllers\Schedule.php on line 42 and exactly 1 expected
+in APPPATH\Models\ReleaseModel.php on line 46.
+ 1 APPPATH\Controllers\Schedule.php(42): App\Models\ReleaseModel->release()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:58:54 --> Too few arguments to function App\Models\ReleaseModel::release(), 0 passed in C:\xampp\htdocs\schedule_1\app\Controllers\Schedule.php on line 42 and exactly 1 expected
+in APPPATH\Models\ReleaseModel.php on line 46.
+ 1 APPPATH\Controllers\Schedule.php(42): App\Models\ReleaseModel->release()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 02:59:10 --> Undefined offset: 2
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 147.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 147, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(44): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 03:28:18 --> Undefined index: run_join_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 227.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: run_join_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 03:34:36 --> Undefined index: tgl_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:04:54 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:37:44 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:40:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Release.php(28): CodeIgniter\Model->__call('release_note', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:44:02 --> Undefined index: note_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: note_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:48:23 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 149.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:48:50 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 149.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:53:34 --> Undefined index: stts
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 143.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stts', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 143, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:53:47 --> Undefined index: idfg
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 146.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idfg', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:55:05 --> Undefined index: fgcodeint
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 167.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fgcodeint', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:57:27 --> array_push() expects parameter 1 to be array, null given
+in APPPATH\Models\ReleaseModel.php on line 95.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'APPPATH\\Models\\ReleaseModel.php', 95, [...])
+ 2 APPPATH\Models\ReleaseModel.php(95): array_push(null, [...])
+ 3 APPPATH\Controllers\Release.php(29): App\Models\ReleaseModel->release_maintenance('07-11-2022')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:58:13 --> Illegal string offset 'note_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'note_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 19:59:43 --> Illegal string offset 'note_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 15.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'note_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:00:26 --> Illegal string offset 'machine_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 60.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'machine_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:00:40 --> Illegal string offset 'machine_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 60.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'machine_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:00:41 --> Illegal string offset 'machine_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 60.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'machine_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:00:42 --> Illegal string offset 'machine_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 60.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'machine_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:04:11 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:09:05 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:28:40 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 133.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:41:21 --> Undefined index: time
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 208.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: time', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 208, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 20:56:17 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 133.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:10:01 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 133.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:10:42 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-07 21:24:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = '31-1...' at line 12 in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(26): App\Models\ReleaseModel->release('31-12-1969')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-07 21:24:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = '31-1...' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_release.*,
+
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'31-12-1969\' and tblfile_form_release.view_form_release = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_release.*,
+
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'31-12-1969\' and tblfile_form_release.view_form_release = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_release.*,
+
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'31-12-1969\' and tblfile_form_release.view_form_release = 1')
+ 4 APPPATH\Models\ReleaseModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_release.*,
+
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'31-12-1969\' and tblfile_form_release.view_form_release = 1')
+ 5 APPPATH\Controllers\Release.php(26): App\Models\ReleaseModel->release('31-12-1969')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:30:07 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:32:22 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:32:34 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:32:35 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:32:59 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:33:00 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:33:16 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:33:43 --> Cannot redeclare tgl_next() (previously declared in C:\xampp\htdocs\schedule_1\app\Views\schedule_eps\planner\list_release.php:115)
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 21:34:04 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:47:31 --> Undefined offset: 1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 161.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 161, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:47:52 --> Undefined offset: 1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 161.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 161, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:47:54 --> Undefined offset: 1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 161.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 161, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:47:57 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 156.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:48:07 --> Undefined offset: 0
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 156.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:51:43 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:53:59 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:54:00 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-07 21:56:07 --> mysqli_sql_exception: Unknown column 'tblfile_form.rc_no' in 'where clause' in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ReleaseModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Release.php(26): App\Models\ReleaseModel->release('07-11-2022')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-07 21:56:07 --> Unknown column 'tblfile_form.rc_no' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_release.*,
+                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl 
+                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS fg_qty_vf     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'07-11-2022\' and tblfile_form_release.view_form_release = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_release.*,
+                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl 
+                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS fg_qty_vf     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'07-11-2022\' and tblfile_form_release.view_form_release = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_release.*,
+                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl 
+                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS fg_qty_vf     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'07-11-2022\' and tblfile_form_release.view_form_release = 1')
+ 4 APPPATH\Models\ReleaseModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_release.*,
+                    (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                        WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                    (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                    (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                        WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                    (SELECT SUM(tbltrnweb_proddaily1stdtl.fg_qty_vf) FROM tbltrnweb_proddaily1stdtl 
+                        WHERE tbltrnweb_proddaily1stdtl.routecardno = tblfile_form.rc_no) AS fg_qty_vf     	 
+
+						FROM tblfile_form_release
+						WHERE tblfile_form_release.tgl_rilis = \'07-11-2022\' and tblfile_form_release.view_form_release = 1')
+ 5 APPPATH\Controllers\Release.php(26): App\Models\ReleaseModel->release('07-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:56:28 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 21:59:48 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 156.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:00:15 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 156.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:00:16 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 156.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 156, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:00:21 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:01:25 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:01:26 --> Undefined offset: 4
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:02:47 --> Undefined offset: -1
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 153.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: -1', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:04:50 --> Only variables should be passed by reference
+in APPPATH\Models\ReleaseModel.php on line 71.
+ 1 APPPATH\Models\ReleaseModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Models\\ReleaseModel.php', 71, [...])
+ 2 APPPATH\Controllers\Release.php(26): App\Models\ReleaseModel->release('07-11-2022')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:05:44 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 133.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:07:05 --> Undefined index: time
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 151.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: time', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:07:20 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 154.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 154, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:13:21 --> Undefined index: time
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 210.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: time', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 210, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:29:25 --> Undefined index: join_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 132.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: join_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:32:05 --> Undefined index: join_release
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 132.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: join_release', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:40:28 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 132.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:41:19 --> Illegal string offset 'join_release'
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 132.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'join_release\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(31): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 22:51:23 --> Illegal string offset 'idform'
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 683.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(683): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'idform\'', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 683, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(41): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,203 @@
+CRITICAL - 2022-12-27 10:44:04 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 10:47:34 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 10:54:51 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 11:02:20 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 11:03:47 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 11:04:49 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 11:08:35 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:12:27 --> Undefined variable: date_of_startn
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 80.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: date_of_startn', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-27 04:13:38 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:15:54 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:23:15 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:26:07 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:29:21 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:40:35 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:46:42 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:50:03 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 04:53:45 --> Object of class DateTime could not be converted to int
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class DateTime could not be converted to int', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 104, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next('20-12-2022 07:00:00', '46.5')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-27 06:51:45 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 108.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 06:55:33 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 108.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 07:00:58 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 110.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 07:03:05 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 110.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 07:05:37 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 108.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 07:07:50 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 116.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:11:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:24:26 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:26:26 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:27:26 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:35:51 --> Undefined variable: d
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 105, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(155): tgl_next('20-12-2022 07:00:00', '46.5')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-27 14:38:41 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:40:43 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 14:55:42 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:01:41 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:03:22 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:04:22 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:05:22 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:06:22 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:07:05 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 77.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:07:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 77.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:14:47 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:26:57 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:27:57 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:40:11 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:46:19 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:52:07 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 15:58:31 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 16:01:37 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 16:26:46 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 16:27:57 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 108.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:00:54 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:01:55 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:02:55 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:03:55 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:05:27 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:06:27 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 17:18:17 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(157): tgl_next('28-12-2022 ', '29')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

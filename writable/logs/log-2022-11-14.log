@@ -1,0 +1,282 @@
+CRITICAL - 2022-11-14 07:10:14 --> Undefined index: idfg
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 47.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idfg', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(57): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewupdate()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:48:58 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:49:00 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:49:02 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:52:24 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:52:26 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:52:27 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:52:29 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:10:30 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:10:34 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:10:35 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:42:06 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:42:07 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:42:08 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:42:11 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:42:12 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:44:56 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:44:58 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:45:00 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:45:01 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:45:05 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:45:06 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:45:07 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:09:35 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:09:45 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:10:10 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:11:15 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:12:30 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:12:56 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 149.
+ 1 APPPATH\Models\ScheduleModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 149, [...])
+ 2 APPPATH\Controllers\Schedule.php(185): App\Models\ScheduleModel->getCAV_edit(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 09:50:27 --> mysqli_sql_exception: Unknown column 'F140400011' in 'where clause' in C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_1\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_1\app\Models\ScheduleModel.php(191): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_1\app\Controllers\Schedule.php(192): App\Models\ScheduleModel->getCAV_edit_bom('F140400011')
+#5 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+#6 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_1\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-14 09:50:27 --> Unknown column 'F140400011' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.* FROM tblmas_bom2 join tblmas_bom1 ON tblmas_bom1.idfg = tblmas_bom2.idfg WHERE tblmas_bom2.idfg = F140400011', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.* FROM tblmas_bom2 join tblmas_bom1 ON tblmas_bom1.idfg = tblmas_bom2.idfg WHERE tblmas_bom2.idfg = F140400011')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.* FROM tblmas_bom2 join tblmas_bom1 ON tblmas_bom1.idfg = tblmas_bom2.idfg WHERE tblmas_bom2.idfg = F140400011')
+ 4 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.* FROM tblmas_bom2 join tblmas_bom1 ON tblmas_bom1.idfg = tblmas_bom2.idfg WHERE tblmas_bom2.idfg = F140400011')
+ 5 APPPATH\Controllers\Schedule.php(192): App\Models\ScheduleModel->getCAV_edit_bom('F140400011')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:51:20 --> Call to undefined method App\Models\ScheduleModel::getCAV_edit_bom
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Model->__call('getCAV_edit_bom', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->cav_bom()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

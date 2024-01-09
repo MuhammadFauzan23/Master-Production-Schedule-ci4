@@ -1,0 +1,239 @@
+CRITICAL - 2023-02-02 09:37:54 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:37:55 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:38:03 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:38:03 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:38:06 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:38:06 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:41:14 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:41:14 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:41:19 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:41:19 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:46:31 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:46:32 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:47:32 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 09:47:33 --> Undefined index: UPS
+in APPPATH\Controllers\Schedule.php on line 260.
+ 1 APPPATH\Controllers\Schedule.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UPS', 'APPPATH\\Controllers\\Schedule.php', 260, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataBOM()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 15:20:46 --> Undefined index: keterangan
+in APPPATH\Views\schedule_eps\planner\list_holiday.php on line 41.
+ 1 APPPATH\Views\schedule_eps\planner\list_holiday.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: keterangan', 'APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 5 APPPATH\Controllers\Schedule.php(180): view('schedule_eps/planner/list_holiday', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:19:24 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(292): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:27:36 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:27:49 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:14 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:19 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:32 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:33 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:33 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:29:33 --> Undefined variable: data
+in APPPATH\Models\ScheduleModel.php on line 191.
+ 1 APPPATH\Models\ScheduleModel.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ScheduleModel.php', 191, [...])
+ 2 APPPATH\Controllers\Schedule.php(275): App\Models\ScheduleModel->getmachineautoselect(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachineautoselect()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 16:46:45 --> Undefined index: idmachine
+in APPPATH\Controllers\Schedule.php on line 307.
+ 1 APPPATH\Controllers\Schedule.php(307): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idmachine', 'APPPATH\\Controllers\\Schedule.php', 307, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachinefromMaster()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 17:14:54 --> Undefined index: idmachine
+in APPPATH\Controllers\Schedule.php on line 307.
+ 1 APPPATH\Controllers\Schedule.php(307): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idmachine', 'APPPATH\\Controllers\\Schedule.php', 307, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->getmachinefromMaster()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 19:27:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Schedule.php on line 287.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('schedule/viewform')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('schedule/viewform')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('schedule/viewform')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 19:46:11 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Schedule.php on line 306.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('schedule/viewform')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('schedule/viewform')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('schedule/viewform')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

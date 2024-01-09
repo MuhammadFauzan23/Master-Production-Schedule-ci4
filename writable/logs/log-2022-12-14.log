@@ -1,0 +1,190 @@
+CRITICAL - 2022-12-14 20:44:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Master.php(19): CodeIgniter\Model->__call('getdataMasterUser', [])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 20:54:37 --> mysqli_sql_exception: Unknown column 'tblweb_users=privilege' in 'on clause' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\MasterModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Master.php(19): App\Models\MasterModel->getdataMasterUser()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-14 20:54:37 --> Unknown column 'tblweb_users=privilege' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblweb_users`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users=privilege`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblweb_users`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users=privilege`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblweb_users`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users=privilege`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblweb_users`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users=privilege`', [], false)
+ 5 APPPATH\Models\MasterModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Master.php(19): App\Models\MasterModel->getdataMasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 20:55:15 --> Invalid argument supplied for foreach()
+in APPPATH\Views\master\list_master_user.php on line 25.
+ 1 APPPATH\Views\master\list_master_user.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\master\\list_master_user.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(21): view('master/list_master_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 21:55:09 --> Undefined index: positiondesc
+in APPPATH\Views\master\list_master_user.php on line 105.
+ 1 APPPATH\Views\master\list_master_user.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: positiondesc', 'APPPATH\\Views\\master\\list_master_user.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(24): view('master/list_master_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 22:27:32 --> mysqli_sql_exception: Unknown column 'nik' in 'field list' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Master.php(43): App\Models\MasterModel->getaddUser(Array)
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Master->addUser()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-14 22:27:32 --> Unknown column 'nik' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (NULL, \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:32\', \'00-0000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (NULL, \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:32\', \'00-0000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (NULL, \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:32\', \'00-0000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (:nik:, :username:, :password:, :fullname:, :privilege:, :level_app:, :dept:, :stamp_name:, :created_date:, :created_by:)', [...], false)
+ 5 APPPATH\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Master.php(43): App\Models\MasterModel->getaddUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 22:27:42 --> mysqli_sql_exception: Unknown column 'nik' in 'field list' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Master.php(43): App\Models\MasterModel->getaddUser(Array)
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Master->addUser()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-14 22:27:42 --> Unknown column 'nik' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:42\', \'00-0000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:42\', \'00-0000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:27:42\', \'00-0000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblsysuserposition` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (:nik:, :username:, :password:, :fullname:, :privilege:, :level_app:, :dept:, :stamp_name:, :created_date:, :created_by:)', [...], false)
+ 5 APPPATH\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Master.php(43): App\Models\MasterModel->getaddUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 22:28:02 --> mysqli_sql_exception: Column 'dept' cannot be null in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Master.php(43): App\Models\MasterModel->getaddUser(Array)
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Master->addUser()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-14 22:28:02 --> Column 'dept' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:28:02\', \'00-0000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:28:02\', \'00-0000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (\'21-4581\', \'Samsir\', \'cd560a6d69997055c30d396ced96735c0209d14c\', \'Samsir Alam\', \'3\', \'3\', NULL, \'Samsir\', \'2022-12-14 22:28:02\', \'00-0000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblweb_users` (`nik`, `username`, `password`, `fullname`, `privilege`, `level_app`, `dept`, `stamp_name`, `created_date`, `created_by`) VALUES (:nik:, :username:, :password:, :fullname:, :privilege:, :level_app:, :dept:, :stamp_name:, :created_date:, :created_by:)', [...], false)
+ 5 APPPATH\Models\MasterModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Master.php(43): App\Models\MasterModel->getaddUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 23:46:12 --> Undefined variable: form
+in APPPATH\Views\master\list_master_user.php on line 42.
+ 1 APPPATH\Views\master\list_master_user.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: form', 'APPPATH\\Views\\master\\list_master_user.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(24): view('master/list_master_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 23:52:09 --> Undefined variable: form
+in APPPATH\Views\master\list_master_user.php on line 43.
+ 1 APPPATH\Views\master\list_master_user.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: form', 'APPPATH\\Views\\master\\list_master_user.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(24): view('master/list_master_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 23:52:19 --> Undefined variable: form
+in APPPATH\Views\master\list_master_user.php on line 242.
+ 1 APPPATH\Views\master\list_master_user.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: form', 'APPPATH\\Views\\master\\list_master_user.php', 242, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master\\list_master_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_user', [], true)
+ 5 APPPATH\Controllers\Master.php(24): view('master/list_master_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->MasterUser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

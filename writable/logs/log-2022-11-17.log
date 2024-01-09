@@ -1,0 +1,351 @@
+CRITICAL - 2022-11-17 19:18:36 --> Undefined index: revno
+in APPPATH\Controllers\Schedule.php on line 191.
+ 1 APPPATH\Controllers\Schedule.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: revno', 'APPPATH\\Controllers\\Schedule.php', 191, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 19:18:37 --> Undefined index: revno
+in APPPATH\Controllers\Schedule.php on line 191.
+ 1 APPPATH\Controllers\Schedule.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: revno', 'APPPATH\\Controllers\\Schedule.php', 191, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 19:18:38 --> Undefined index: revno
+in APPPATH\Controllers\Schedule.php on line 191.
+ 1 APPPATH\Controllers\Schedule.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: revno', 'APPPATH\\Controllers\\Schedule.php', 191, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 19:24:00 --> Undefined index: revno
+in APPPATH\Controllers\Schedule.php on line 192.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: revno', 'APPPATH\\Controllers\\Schedule.php', 192, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 19:24:01 --> Undefined index: revno
+in APPPATH\Controllers\Schedule.php on line 192.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: revno', 'APPPATH\\Controllers\\Schedule.php', 192, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 19:46:58 --> syntax error, unexpected end of file
+in APPPATH\Controllers\Schedule.php on line 324.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('schedule/viewupdate')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('schedule/viewupdate')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('schedule/viewupdate')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 20:57:51 --> mysqli_sql_exception: Unknown column '2fgfg' in 'where clause' in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(201): App\Models\ScheduleModel->getambilDatamtr('2fgfg=F19040001...', NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 20:57:51 --> Unknown column '2fgfg' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno = 2fgfg=F190400013 AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno = 2fgfg=F190400013 AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno = 2fgfg=F190400013 AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno = 2fgfg=F190400013 AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(201): App\Models\ScheduleModel->getambilDatamtr('2fgfg=F190400013', null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 20:57:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom2.idfg = '' AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(201): App\Models\ScheduleModel->getambilDatamtr(NULL, NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 20:57:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom2.idfg = '' AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'\' AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(201): App\Models\ScheduleModel->getambilDatamtr(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 22:11:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 22:11:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 22:11:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 22:11:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =   AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 22:11:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 22:11:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-17 22:11:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(NULL)
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-17 22:11:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(200): App\Models\ScheduleModel->getambilDatamtr(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:17:29 --> Undefined index: materialdesc
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: materialdesc', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:18:25 --> Undefined index: materialdesc
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: materialdesc', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:21:16 --> Undefined index: materialdesc
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: materialdesc', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:52:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:52:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:52:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Schedule.php on line 204.
+ 1 APPPATH\Controllers\Schedule.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Schedule.php', 204, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:54:35 --> Illegal string offset 'revno'
+in APPPATH\Controllers\Schedule.php on line 192.
+ 1 APPPATH\Controllers\Schedule.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'revno\'', 'APPPATH\\Controllers\\Schedule.php', 192, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

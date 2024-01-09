@@ -1,0 +1,9 @@
+CRITICAL - 2023-07-05 03:54:44 --> Argument 3 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type int or null, array given, called in C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Models\UserModel.php on line 24
+in SYSTEMPATH\Database\BaseBuilder.php on line 2051.
+ 1 APPPATH\Models\UserModel.php(24): CodeIgniter\Database\BaseBuilder->update([...], [...], [...])
+ 2 APPPATH\Controllers\User.php(51): App\Models\UserModel->geteditUser([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->editUser()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

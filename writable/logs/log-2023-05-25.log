@@ -1,0 +1,211 @@
+ERROR - 2023-05-25 14:47:04 --> mysqli_sql_exception: Unknown column 'tblfile_mould_status.mould_status' in 'field list' in C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Models\ScheduleModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Controllers\Schedule.php(38): App\Models\ScheduleModel->getFormSchedule()
+#5 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+#6 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-25 14:47:04 --> Unknown column 'tblfile_mould_status.mould_status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form.*, 
+                            (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                                    WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+                            (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS int_density,      
+                            (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgweight,        
+                            (SELECT  if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size 
+                                    WHERE tblfile_mould_size.id = tblfile_form.mould_size)AS mould_size,        
+                            (SELECT  if(COUNT(tblfile_mould_status.mould_status) >= 1, tblfile_mould_status.mould_status, null) from tblfile_mould_status 
+                                    WHERE tblfile_mould_status.id = tblfile_form.mould_status)AS mould_status,        
+                            (SELECT SUM(tbltrnweb_prodeps1stdtl.totalqty) FROM tbltrnweb_prodeps1stdtl 
+                                    WHERE tbltrnweb_prodeps1stdtl.routecardno = tblfile_form.rc_no) AS totalqty
+                             
+                            FROM tblfile_form WHERE tblfile_form.idform = 319 OR tblfile_form.gabung = 319 ORDER BY tblfile_form.urutan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form.*, 
+                            (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                                    WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+                            (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS int_density,      
+                            (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgweight,        
+                            (SELECT  if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size 
+                                    WHERE tblfile_mould_size.id = tblfile_form.mould_size)AS mould_size,        
+                            (SELECT  if(COUNT(tblfile_mould_status.mould_status) >= 1, tblfile_mould_status.mould_status, null) from tblfile_mould_status 
+                                    WHERE tblfile_mould_status.id = tblfile_form.mould_status)AS mould_status,        
+                            (SELECT SUM(tbltrnweb_prodeps1stdtl.totalqty) FROM tbltrnweb_prodeps1stdtl 
+                                    WHERE tbltrnweb_prodeps1stdtl.routecardno = tblfile_form.rc_no) AS totalqty
+                             
+                            FROM tblfile_form WHERE tblfile_form.idform = 319 OR tblfile_form.gabung = 319 ORDER BY tblfile_form.urutan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form.*, 
+                            (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                                    WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+                            (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS int_density,      
+                            (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgweight,        
+                            (SELECT  if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size 
+                                    WHERE tblfile_mould_size.id = tblfile_form.mould_size)AS mould_size,        
+                            (SELECT  if(COUNT(tblfile_mould_status.mould_status) >= 1, tblfile_mould_status.mould_status, null) from tblfile_mould_status 
+                                    WHERE tblfile_mould_status.id = tblfile_form.mould_status)AS mould_status,        
+                            (SELECT SUM(tbltrnweb_prodeps1stdtl.totalqty) FROM tbltrnweb_prodeps1stdtl 
+                                    WHERE tbltrnweb_prodeps1stdtl.routecardno = tblfile_form.rc_no) AS totalqty
+                             
+                            FROM tblfile_form WHERE tblfile_form.idform = 319 OR tblfile_form.gabung = 319 ORDER BY tblfile_form.urutan ASC')
+ 4 APPPATH\Models\ScheduleModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form.*, 
+                            (SELECT if(COUNT(tbltrn_production1.cycletime) >= 1,tbltrn_production1.cycletime,  null) FROM tbltrn_production1 
+                                    WHERE tbltrn_production1.routecardno = tblfile_form.rc_no),
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg) AS fgcodegen,
+                            (SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+                            (SELECT  if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS int_density,      
+                            (SELECT  if(COUNT(tblmas_finishgood.fgweight) >= 1, tblmas_finishgood.fgweight, null) from tblmas_finishgood 
+                                    WHERE tblmas_finishgood.idfg = tblfile_form.idfg)AS fgweight,        
+                            (SELECT  if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size 
+                                    WHERE tblfile_mould_size.id = tblfile_form.mould_size)AS mould_size,        
+                            (SELECT  if(COUNT(tblfile_mould_status.mould_status) >= 1, tblfile_mould_status.mould_status, null) from tblfile_mould_status 
+                                    WHERE tblfile_mould_status.id = tblfile_form.mould_status)AS mould_status,        
+                            (SELECT SUM(tbltrnweb_prodeps1stdtl.totalqty) FROM tbltrnweb_prodeps1stdtl 
+                                    WHERE tbltrnweb_prodeps1stdtl.routecardno = tblfile_form.rc_no) AS totalqty
+                             
+                            FROM tblfile_form WHERE tblfile_form.idform = 319 OR tblfile_form.gabung = 319 ORDER BY tblfile_form.urutan ASC')
+ 5 APPPATH\Controllers\Schedule.php(38): App\Models\ScheduleModel->getFormSchedule()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-25 15:00:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.moul...' at line 7 in C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Models\Releasekaryawan_Model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Controllers\Release_karyawan.php(24): App\Models\Releasekaryawan_Model->release_karyawan('29-11-2022')
+#5 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Release_karyawan->viewreleasekaryawan()
+#6 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release_karyawan))
+#7 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-25 15:00:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.moul...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status,   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status,   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status,   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 4 APPPATH\Models\Releasekaryawan_Model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status,   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 5 APPPATH\Controllers\Release_karyawan.php(24): App\Models\Releasekaryawan_Model->release_karyawan('29-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release_karyawan->viewreleasekaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release_karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-25 15:00:40 --> mysqli_sql_exception: Unknown column 'tblfile_form.mould_size_release' in 'where clause' in C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Models\Releasekaryawan_Model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\Project_fauzan\schedule_eps\app\Controllers\Release_karyawan.php(24): App\Models\Releasekaryawan_Model->release_karyawan('29-11-2022')
+#5 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Release_karyawan->viewreleasekaryawan()
+#6 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release_karyawan))
+#7 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-25 15:00:40 --> Unknown column 'tblfile_form.mould_size_release' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size_release,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status_release   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size_release,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status_release   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size_release,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status_release   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 4 APPPATH\Models\Releasekaryawan_Model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form_release.*,
+                     (SELECT if(COUNT(tbltrn_production1.cycletime)  >= 1, tbltrn_production1.cycletime,  null) FROM tbltrn_production1 WHERE tbltrn_production1.routecardno = tblfile_form_release.rc_no_release),
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodegen)   >= 1, tblmas_finishgood.fgcodegen, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodegen_release,
+                     (SELECT if(COUNT(tblmas_finishgood.fgcodeint)   >= 1, tblmas_finishgood.fgcodeint, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgcodeint_release,
+                     (SELECT if(COUNT(tblmas_finishgood.int_density) >= 1, tblmas_finishgood.int_density, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS int_density_release,      
+                     (SELECT if(COUNT(tblmas_finishgood.fgweight)    >= 1, tblmas_finishgood.fgweight, null) FROM tblmas_finishgood WHERE tblmas_finishgood.idfg = tblfile_form_release.idfg_release) AS fgweight_release,
+                     (SELECT if(COUNT(tblfile_mould_size.mould_size) >= 1, tblfile_mould_size.mould_size, null) from tblfile_mould_size WHERE tblfile_mould_size.id = tblfile_form.mould_size_release)AS mould_size_release,        
+                     (SELECT  if(COUNT(tblfile_mould_status.mould_name) >= 1, tblfile_mould_status.mould_name, null) from tblfile_mould_status WHERE tblfile_mould_status.id = tblfile_form.mould_status_release)AS mould_status_release   	 
+					 FROM tblfile_form_release WHERE tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.idform_release = 308 or tblfile_form_release.tgl_rilis = \'29-11-2022\' and tblfile_form_release.gabung_release = 308')
+ 5 APPPATH\Controllers\Release_karyawan.php(24): App\Models\Releasekaryawan_Model->release_karyawan('29-11-2022')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release_karyawan->viewreleasekaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release_karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

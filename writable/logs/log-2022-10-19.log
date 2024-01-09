@@ -1,0 +1,12 @@
+CRITICAL - 2022-10-19 01:55:14 --> Undefined variable: note
+in APPPATH\Views\schedule_eps\planner\list_release.php on line 14.
+ 1 APPPATH\Views\schedule_eps\planner\list_release.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: note', 'APPPATH\\Views\\schedule_eps\\planner\\list_release.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_release.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_release', [], true)
+ 5 APPPATH\Controllers\Release.php(24): view('schedule_eps/planner/list_release', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Release->viewrelease()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Release))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

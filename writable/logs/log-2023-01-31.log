@@ -1,0 +1,501 @@
+ERROR - 2023-01-31 20:57:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom2.idfg = 'F190400013' AND tblmas_bom1.stsdefault = 1' at line 5 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_b...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_b...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_b...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(163): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_b...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(256): App\Models\ScheduleModel->getambilDatamtr('', 'F190400013')
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-31 20:57:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND tblmas_bom2.idfg = 'F190400013' AND tblmas_bom1.stsdefault = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'F190400013\' AND tblmas_bom1.stsdefault = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'F190400013\' AND tblmas_bom1.stsdefault = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'F190400013\' AND tblmas_bom1.stsdefault = 1')
+ 4 APPPATH\Models\ScheduleModel.php(163): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_bom2.*, tblmas_material.* 
+                        FROM tblmas_bom2 
+                            JOIN tblmas_bom1 on tblmas_bom1.idfg = tblmas_bom2.idfg
+                                JOIN tblmas_material on tblmas_material.idmaterial = tblmas_bom2.idmaterial
+                                    WHERE tblmas_bom2.revno =  AND tblmas_bom2.idfg = \'F190400013\' AND tblmas_bom1.stsdefault = 1')
+ 5 APPPATH\Controllers\Schedule.php(256): App\Models\ScheduleModel->getambilDatamtr('ROOTPATH\\public', 'F190400013')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDatamtr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:42 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:42 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:55 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:55 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:57 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:57 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:59 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:06:59 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:01 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:02 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:05 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:05 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:07 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:08 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:09 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 21:07:09 --> Undefined variable: schedule_list
+in APPPATH\Views\schedule_eps\planner\list_edit_schedule.php on line 25.
+ 1 APPPATH\Views\schedule_eps\planner\list_edit_schedule.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schedule_list', 'APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_edit_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_edit_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(253): view('schedule_eps/planner/list_edit_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->ambilDataRev()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-31 21:37:18 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(210): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-31 21:37:18 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 4 APPPATH\Models\ScheduleModel.php(210): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 5 APPPATH\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-31 21:38:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE t...' at line 11 in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-31 21:38:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE t...' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+			    (SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+			    (SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+			    (SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 4 APPPATH\Models\ScheduleModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no
+
+			    (SELECT tbltrn_production1.idmaterial FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 5 APPPATH\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-31 21:39:29 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_...', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_...')
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_...')
+#3 C:\xampp\htdocs\schedule_eps\app\Models\ScheduleModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_...')
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-31 21:39:29 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 4 APPPATH\Models\ScheduleModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT tblfile_form.*, 
+				(SELECT  if(COUNT(tblmas_finishgood.fgcodegen) >= 1, tblmas_finishgood.fgcodegen,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodegen,
+ 
+ 				(SELECT  if(COUNT(tblmas_finishgood.fgcodeint) >= 1, tblmas_finishgood.fgcodeint,null) 
+ 					from tblmas_finishgood where tblmas_finishgood.idfg = tblfile_form.idfg)AS fgcodeint,
+
+			    (SELECT tbltrn_production1.cycletime FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as rc_no,
+
+			    (SELECT tbltrn_production1.* FROM tbltrn_production1 
+				 	WHERE tbltrn_production1.routecardno = tblfile_form.rc_no) as idmaterial
+
+				FROM tblfile_form WHERE tblfile_form.urutan= 1 ORDER BY tblfile_form.urutan ASC')
+ 5 APPPATH\Controllers\Schedule.php(280): App\Models\ScheduleModel->listJoinFromMaster()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->list_join()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-31 19:15:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa_esay_ppci...', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', 'df211ccdd94a63e...')
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#3 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', 'df211ccdd94a63e...')
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-31 19:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_users`.*, `tblweb_privilege`.`privilege_name`, `tblweb_privilege`.`id` AS `privilege_id`
+FROM `tblweb_users`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users`.`privilege`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', 'df211ccdd94a63e0bcb9e6ae427a249484a49d60')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,24 @@
+CRITICAL - 2023-06-12 14:52:49 --> Undefined index: tgl_libur
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl_libur', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(49): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-12 14:53:19 --> Undefined index: tgl_libur
+in APPPATH\Views\schedule_eps\planner\list_holiday.php on line 40.
+ 1 APPPATH\Views\schedule_eps\planner\list_holiday.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl_libur', 'APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 5 APPPATH\Controllers\Schedule.php(287): view('schedule_eps/planner/list_holiday', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

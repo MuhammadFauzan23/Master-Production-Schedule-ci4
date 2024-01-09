@@ -1,0 +1,286 @@
+CRITICAL - 2023-01-06 08:28:44 --> Undefined variable: d
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 98, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(157): tgl_next('11-01-2023 15:56:00', '8.67', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 08:36:12 --> Undefined variable: d
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 98, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(159): tgl_next('11-01-2023 15:56:00', '8.67', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 09:03:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-06 09:04:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-06 09:05:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-06 09:10:16 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 79.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(168): tgl_next(null, '7.72', [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:38:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-06 10:55:41 --> in_array() expects parameter 2 to be array, string given
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expects parameter 2 to be array, string given', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 115, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(115): in_array('11-01-2023', '10-01-2023', [...])
+ 3 APPPATH\Views\schedule_eps\planner\list_schedule.php(166): tgl_next('09-01-2023 10:03:00', '15.2', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 7 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 11:59:05 --> Call to undefined method App\Models\ScheduleModel::getFormSchedule
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormSchedule', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:39:15 --> Undefined variable: dd
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 112.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dd', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 112, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(171): tgl_next('09-01-2023 10:03:00', '15.2', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:39:57 --> Undefined variable: dd
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 112.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dd', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 112, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(171): tgl_next('09-01-2023 10:03:00', '15.2', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:39:58 --> Undefined variable: dd
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 112.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dd', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 112, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(171): tgl_next('09-01-2023 10:03:00', '15.2', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:57:41 --> Undefined variable: date
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 125.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: date', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 125, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(170): tgl_next('09-01-2023 10:03:00', '15.2', [...])
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:10:11 --> Undefined variable: data_holiday
+in APPPATH\Views\schedule_eps\planner\list_holiday.php on line 38.
+ 1 APPPATH\Views\schedule_eps\planner\list_holiday.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_holiday', 'APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 5 APPPATH\Controllers\Schedule.php(178): view('schedule_eps/planner/list_holiday', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:12:45 --> Undefined variable: data_holiday
+in APPPATH\Views\schedule_eps\planner\list_holiday.php on line 38.
+ 1 APPPATH\Views\schedule_eps\planner\list_holiday.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_holiday', 'APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 5 APPPATH\Controllers\Schedule.php(175): view('schedule_eps/planner/list_holiday')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:12:45 --> Undefined variable: data_holiday
+in APPPATH\Views\schedule_eps\planner\list_holiday.php on line 38.
+ 1 APPPATH\Views\schedule_eps\planner\list_holiday.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_holiday', 'APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_holiday.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 5 APPPATH\Controllers\Schedule.php(175): view('schedule_eps/planner/list_holiday')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:13:58 --> Undefined variable: title
+in APPPATH\Views\layout\template.php on line 11.
+ 1 APPPATH\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\template.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_holiday', [], true)
+ 7 APPPATH\Controllers\Schedule.php(178): view('schedule_eps/planner/list_holiday')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewHoliday()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:13 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:35 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:35 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:36 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:37 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:37 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:37 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:37 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 15:21:37 --> Call to undefined method App\Models\ScheduleModel::getFormRilis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Schedule.php(50): CodeIgniter\Model->__call('getFormRilis', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

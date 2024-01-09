@@ -1,0 +1,45 @@
+CRITICAL - 2022-12-04 19:45:48 --> Undefined variable: hasil_jam
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hasil_jam', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 105, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(144): tgl_next('02-12-2022 07:00:00', '12.18')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(56): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-04 20:15:27 --> Undefined variable: final_jam
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: final_jam', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 98, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(141): tgl_next('02-12-2022 07:00:00', '14.18')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(56): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-04 20:25:01 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-04 20:28:30 --> Undefined variable: jam_kerja
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jam_kerja', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 98, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(142): tgl_next('02-12-2022 07:00:00', '14.18')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(56): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-04 20:33:29 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

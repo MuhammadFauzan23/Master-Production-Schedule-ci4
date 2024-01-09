@@ -1,0 +1,96 @@
+ERROR - 2023-02-20 22:00:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa_esay_ppci...', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#3 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 22:00:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_users`.*, `tblweb_privilege`.`privilege_name`, `tblweb_privilege`.`id` AS `privilege_id`
+FROM `tblweb_users`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users`.`privilege`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-20 22:01:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa_esay_ppci...', 3306, '', 0)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#4 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\schedule_eps\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\schedule_eps\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\schedule_eps\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#3 C:\xampp\htdocs\schedule_eps\app\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\schedule_eps\app\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#5 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\schedule_eps\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\schedule_eps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\schedule_eps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 22:01:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_users`.*, `tblweb_privilege`.`privilege_name`, `tblweb_privilege`.`id` AS `privilege_id`
+FROM `tblweb_users`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users`.`privilege`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(31): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

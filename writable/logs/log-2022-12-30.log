@@ -1,0 +1,1058 @@
+CRITICAL - 2022-12-30 08:14:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:18:04 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:19:38 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:42:45 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:43:46 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:44:46 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 08:45:57 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:07:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:08:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:09:52 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:21:16 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:35:32 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:38:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:39:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:40:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:43:18 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 09:48:50 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 135.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 135, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:02 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:03 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:03 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:04 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:04 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:04 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:04 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:05 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:05 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:05 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:05 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 134.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 134, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:49:16 --> Undefined variable: start
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 135.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 135, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(184): tgl_next('24-12-2022 15:00:00', '4')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 09:50:38 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:06:02 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:08:53 --> Undefined variable: pengurangan_menit_selanjutnya
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 126.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengurangan_menit_selanjutnya', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 126, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(183): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:10:26 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:12:50 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:27:47 --> Undefined variable: d
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 129.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: d', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 129, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(176): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:28:34 --> Undefined variable: s
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 131.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: s', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 131, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(175): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:28:35 --> Undefined variable: s
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 131.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: s', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 131, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(175): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:38:36 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:45:18 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:47:37 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(159): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:48:21 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:48:39 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:48:40 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:49:04 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(159): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:49:05 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(159): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 10:54:47 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:55:47 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 10:56:58 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 11:05:39 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 11:06:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 11:06:15 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 11:10:46 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 11:14:55 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 11:15:55 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 11:41:30 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 11:45:29 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(156): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:19 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:34 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:34 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:35 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:36 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:36 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 12:05:36 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:17:22 --> Object of class DateTime could not be converted to number
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 110.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class DateTime could not be converted to number', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 110, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(110): ceil(Object(DateTime))
+ 3 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next('19-12-2022 07:00:00', '30')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 7 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:17:23 --> Object of class DateTime could not be converted to number
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 110.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class DateTime could not be converted to number', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 110, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(110): ceil(Object(DateTime))
+ 3 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next('19-12-2022 07:00:00', '30')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 7 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:18:10 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:20:50 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:20:51 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:21:58 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:13 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:14 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:22:15 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(158): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:47 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:48 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:49 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:49 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:49 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:49 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:30:49 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:31:30 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:31:31 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:25 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:41 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:42 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:42 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:42 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:32:42 --> Call to a member function format() on bool
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 87.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(160): tgl_next(null, '19.5')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 5 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:43:09 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 109.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 109, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(159): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:51:39 --> Object of class DateTime could not be converted to number
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class DateTime could not be converted to number', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:35 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:36 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:36 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:36 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:36 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 13:52:37 --> A non well formed numeric value encountered
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 111.
+ 1 APPPATH\Views\schedule_eps\planner\list_schedule.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php', 111, [...])
+ 2 APPPATH\Views\schedule_eps\planner\list_schedule.php(161): tgl_next('19-12-2022 07:00:00', '30')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\schedule_eps\\planner\\list_schedule.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('schedule_eps/planner/list_schedule', [], true)
+ 6 APPPATH\Controllers\Schedule.php(60): view('schedule_eps/planner/list_schedule', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Schedule->viewform()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Schedule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-30 14:16:13 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:17:25 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:41:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:42:56 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:47:17 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:48:17 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-30 14:53:05 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\schedule_eps\planner\list_schedule.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
